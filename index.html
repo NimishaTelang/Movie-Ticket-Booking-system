@@ -1,0 +1,6 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Movie Ticket Booking System</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>🎬 Movie Ticket Booking System</h1><p>Book your movie tickets quickly and easily</p></header><main>
+<section class="card"><h2>Select Movie</h2><select id="movie"><option value="250">Avengers: Endgame - ₹250</option><option value="220">Spider-Man: No Way Home - ₹220</option><option value="200">3 Idiots - ₹200</option></select>
+<h2>Select Date</h2><input type="date" id="date"><h2>Select Show Time</h2><select id="time"><option>10:00 AM</option><option>1:30 PM</option><option>5:00 PM</option><option>8:30 PM</option></select>
+<h2>Select Number of Tickets</h2><input type="number" id="tickets" min="1" max="10" value="1"><button onclick="bookTicket()">Book Ticket</button><div id="result"></div></section>
+<section class="card"><h2>Booking Features</h2><ul><li>Movie selection</li><li>Date and show-time selection</li><li>Ticket quantity selection</li><li>Automatic fare calculation</li><li>Booking confirmation</li></ul></section></main><script src="script.js"></script></body></html>
